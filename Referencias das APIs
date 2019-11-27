@@ -1,0 +1,96 @@
+// http://api.vagalume.com.br/search.artmus?apikey=660a4395f992ff67786584e238f501aa&q=Skank%20Vamos%20Fugir&limit=5
+
+/*// Exemplo de retorno da requisição
+ 
+{
+    "response":{
+        "numFound": 1114,
+        "start": 0,
+        "docs":[
+            {
+                "id": "l3ade68b7g3be34ea3",
+                "url": "/skank/vamos-fugir.html",
+                "title": "Vamos Fugir",
+                "band": "Skank"
+            },
+            ...
+        ]
+    },
+    "highlighting":{
+        "l3ade68b7g3be34ea3":{
+            "title":[
+                "<em>Vamos</em> <em>Fugir</em>"
+            ]
+        },
+    },
+...
+}*/
+
+//http://www.vagalume.com.br/skank/discografia/index.js
+
+// Exemplo de retorno da requisição
+
+/*{
+    "discography":{
+        "artist":{
+            "id":"3ade68b2g3b86eda3",
+            "desc":"U2",
+            "url":"/u2/"
+        },
+        "item":
+            [
+                {
+                    "id":"3ade68b6g4f38fda3",
+                    "desc":"No line on the horizon",
+                    "url":"/u2/discografia/no-line-on-the-horizon.html",
+                    "cover":"/u2/discografia/no-line-on-the-horizon-W125.jpg",
+                    "label":"Island/Universal",
+                    "published":"2009",
+                    "discs":
+                        [
+                            [
+                                {
+                                    "id":"3ade68b8gfd729fa3",
+                                    "desc":"No Line On The Horizon",
+                                    "url":"/u2/no-line-on-the-horizon.html"
+                                },{
+                                    "id":"3ade68b8g47c29fa3",
+                                    "desc":"Magnificent",
+                                    "url":"/u2/magnificent.html"
+                                },{
+                                    "id":"3ade68b8g75b29fa3",
+                                    "desc":"Moment Of Surrender",
+                                    "url":"/u2/moment-of-surrender.html"
+                                },
+                                ...
+                            ]
+                            ...
+                        ]
+                },{
+                    "id":"3ade68b6ge7e7fda3",
+                    "desc":"U218 Singles",...*/
+
+//imagem do album http://s2.vagalume.com/u2/discografia/no-line-on-the-horizon-W125.jpg
+    
+    
+/* https://www.googleapis.com/youtube/v3/search?part=id&q=bang&key={YOUR_API_KEY}
+{
+ "kind": "youtube#searchListResponse",
+ "etag": "\"q5k97EMVGxODeKcDgp8gnMu79wM/M4TK4wk_mjysrgMvmSXyBe2JJvM\"",
+ "nextPageToken": "CAUQAA",
+ "regionCode": "BR",
+ "pageInfo": {
+  "totalResults": 1000000,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"q5k97EMVGxODeKcDgp8gnMu79wM/KgQclkfU_Z8SnG0pOOyP9NtBOPQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "UGov-KH7hkM"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",... */
